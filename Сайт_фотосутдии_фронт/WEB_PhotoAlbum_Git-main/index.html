@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO и Метатеги -->
+    <title>Иван Иванов - Выпускные фотоальбомы | Стильные фотокниги</title>
+    <meta name="description" content="Создаю современные и стильные выпускные фотоальбомы в Москве. Индивидуальный дизайн, качественная печать и живые фотографии. Сохраните лучшие моменты.">
+    <meta name="keywords" content="выпускной альбом, фотокнига, фотоальбом на выпускной, фотограф на выпускной, школьный альбом, студенческий альбом, москва">
+    <meta name="author" content="Иван Иванов">
+
+    <!-- Open Graph (для соцсетей) -->
+    <meta property="og:title" content="Иван Иванов - Выпускные фотоальбомы">
+    <meta property="og:description" content="Стильные и современные выпускные фотоальбомы.">
+    <meta property="og:image" content="images/social-preview.jpg"> >
+    <meta property="og:url" content="https://your-website.com"> <!-- ЗАМЕНИТЕ НА ВАШ ДОМЕН -->
+    <meta property="og:type" content="website">
+
+    <!-- Шрифты с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- Ссылка на стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <a href="#hero" class="logo">Иван Иванов</a>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#portfolio">Примеры</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- Бургер-меню для мобильных устройств -->
+            <div id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Главный экран -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Ваша история в стильном альбоме</h1>
+                <p>Современные выпускные фотоальбомы, которые хочется пересматривать</p>
+                <a href="#portfolio" class="cta-button">Посмотреть альбомы</a>
+            </div>
+        </section>
+
+        <!-- Секция "Обо мне" -->
+        <section id="about" class="animated-section">
+            <div class="container">
+                <h2>Мой подход</h2>
+                <div class="about-content">
+                    <img src="Avatar/avatar.png" alt="Фотография Ивана Иванова"> <!-- ЗАМЕНИТЕ НА ВАШЕ ФОТО -->
+                    <p>Привет! Меня зовут Иван. Я создаю не просто фотоальбомы, а настоящие книги воспоминаний. Моя цель — отразить уникальную атмосферу вашего класса или группы, запечатлеть искренние эмоции и дружбу. Я верю, что хороший альбом — это тот, который вы с теплотой будете открывать спустя годы.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Портфолио" -->
+        <section id="portfolio" class="animated-section">
+            <div class="container">
+                <h2>Мои альбомы</h2>
+                <div class="gallery">
+                    <!-- Замените src на путь к вашему маленькому превью, а data-src на путь к большой фотографии -->
+                    <div class="gallery-item">
+                        <img src="Image/4x3.webp" data-src="Image/4x3.webp" alt="Пример разворота альбома">
+                        <div class="overlay"><span class="view-btn">Посмотреть</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Image/1x1.webp" data-src="Image/1x1.webp" alt="Портретная страница">
+                        <div class="overlay"><span class="view-btn">Посмотреть</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Image/4x8.webp" data-src="Image/4x8.webp" alt="Общая фотография в альбоме">
+                        <div class="overlay"><span class="view-btn">Посмотреть</span></div>
+                    </div>
+                     <div class="gallery-item">
+                        <img src="Image/10х10.webp" data-src="Image/10х10.webp" alt="Дизайн обложки фотокниги">
+                        <div class="overlay"><span class="view-btn">Посмотреть</span></div>
+                    </div>
+                     <div class="gallery-item">
+                        <img src="Image/3X3.webp" data-src="Image/3x3.webp" alt="Коллаж из фотографий">
+                        <div class="overlay"><span class="view-btn">Посмотреть</span></div>
+                    </div>
+                     <div class="gallery-item">
+                        <img src="Image/2x3.png" data-src="Image/2x3.png" alt="Репортажные снимки">
+                        <div class="overlay"><span class="view-btn">Посмотреть</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Услуги" -->
+        <section id="services" class="animated-section">
+            <div class="container">
+                <h2>Что входит в стоимость</h2>
+                <div class="services-container">
+                    <div class="service-card">
+                        <h3>Индивидуальный дизайн</h3>
+                        <p>Разработка уникального макета для вашего класса. Учитываем все ваши пожелания по стилю и наполнению.</p>
+                        <div class="price">от 2500 ₽/альбом</div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Проф. фотосессия</h3>
+                        <p>Проведение съемочного дня для сбора материала: портреты, групповые фото, живой репортаж.</p>
+                        <div class="price">Включено в пакет</div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Качественная печать</h3>
+                        <p>Печать альбомов в типографии на плотной бумаге с твердой обложкой. Гарантия ярких цветов.</p>
+                        <div class="price">Твердая обложка</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Контакты" -->
+        <section id="contact" class="animated-section">
+            <div class="container">
+                <h2>Заказать альбом</h2>
+                <div class="contact-info">
+                    <p>Готовы обсудить ваш идеальный выпускной альбом? <br>Напишите мне, и я вышлю подробную информацию и отвечу на все вопросы.</p>
+                    <p class="contact-detail">
+                        <strong>Email:</strong> <a href="">example@exaple.com</a>
+                    </p>
+                    <p class="contact-detail">
+                        <strong>Телефон:</strong> <a href="">+example</a>
+                    </p>
+                    <p class="contact-detail">
+                        <strong>Telegram:</strong> <a href="">@example</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер (подвал) -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Иван Иванов. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Лайтбокс для просмотра изображений -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">×</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Ссылка на JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
